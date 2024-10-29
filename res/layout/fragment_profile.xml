@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/myImage"
+            android:layout_width="248dp"
+            android:layout_height="253dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/morgana"
+            tools:ignore="ExtraText" />
+
+        <TextView
+            android:layout_marginTop="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Muhammad Naufal Hidayat"
+            android:textSize="75px"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_centerInParent="true"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="23/520500/SV/23249"
+            android:textSize="30dp"
+            android:layout_marginTop="5sp"
+            android:textColor="#000000"
+            />
+
+    </LinearLayout>
+
+
+
+
+</FrameLayout>
